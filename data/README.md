@@ -1,7 +1,7 @@
 Dataset: UCI Heart Disease Dataset
 
 Source:
-DOWNLOADED DATASET FROM KAGGLE
+ORIGINALLY SOURCED FROM KAGGLE
 
 Description:
 This dataset contains patient health and lifestyle attributes such as age, sex, cholesterol, blood pressure, and chest pain type.
