@@ -7,3 +7,14 @@ Steps Performed:
 5. Saved cleaned dataset for model training
 Output File:
 data/processed_heart.csv
+
+
+
+
+Risk Prediction Module
+
+The trained model outputs a probability score which is converted into a
+human-interpretable risk percentage and categorized into Low, Moderate,
+or High risk levels.
+
+This enables early preventive decision-making instead of binary diagnosis.
