@@ -1,1 +1,4 @@
+joblib
 
+
+We trained Logistic Regression and Random Forest models, evaluated them, and selected Random Forest as the final model based on performance
