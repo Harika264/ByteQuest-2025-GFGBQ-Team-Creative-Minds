@@ -28,12 +28,33 @@ This enables preventive healthcare rather than reactive treatment.
 - Includes health attributes like age, cholesterol, blood pressure, heart rate
 
 ## AI / ML Pipeline
-1. Data Cleaning & Preprocessing
-2. Feature Encoding & Scaling
-3. Model Training (Logistic Regression & Random Forest)
-4. Model Evaluation & Selection
-5. Risk Score Prediction
-6. Interactive User Interface
+The project follows a structured end-to-end AI/ML pipeline:
+1. **Data Collection**
+   - Heart disease dataset (`data/heart.csv`)
+2. **Data Preprocessing**
+   - Missing value handling
+   - Categorical encoding
+   - Feature scaling
+   - Implemented in `preprocessing.py`
+3. **Feature Engineering**
+   - Numerical normalization
+   - Label encoding for categorical variables
+4. **Model Training**
+   - Random Forest Classifier
+   - Implemented in `train_model.py`
+5. **Model Evaluation**
+   - Accuracy, Precision, Recall, F1-score
+   - Implemented in `evaluation.py`
+6. **Model Serialization**
+   - Trained model saved as `models/heart_model.pkl`
+7. **Inference & Risk Prediction**
+   - User input converted into model-compatible format
+   - Implemented in `predict_risk.py`
+8. **User Interface**
+   - Interactive Streamlit UI
+   - Implemented in `app.py`
+**Note:** Initial experimentation was done using Jupyter notebooks.  
+Final implementation is provided as modular Python scripts for reproducibility.
 
 ## Models Used
 - Logistic Regression (baseline)
